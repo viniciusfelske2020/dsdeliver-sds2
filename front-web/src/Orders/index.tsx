@@ -1,6 +1,5 @@
 import './styles.css';
 import { toast} from 'react-toastify';
-import {ReactComponent as Logo} from "./logo.svg";
 import StepsHeader from "./StepsHeader";
 import OrderLocation from "./OrderLocation";
 import ProductsList from "./ProductsList";
@@ -10,7 +9,6 @@ import { useEffect, useState } from 'react';
 import { OrderLocationData, Product } from './types';
 import { fetchProducts, saveOrder } from '../api';
 import { checkIsSelected } from './helpers';
-import { isTemplateExpression } from 'typescript';
 
 function Orders(){
 
